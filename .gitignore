@@ -1,0 +1,7 @@
+c_src/.dir-locals.el
+c_src/build/*
+c_src/TAGS
+c_src/*.o
+ebin/*
+priv/*
+.eunit/

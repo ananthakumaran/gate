@@ -1,0 +1,9 @@
+%%-*- mode:erlang -*-
+
+{application, gate,
+ [{vsn, "1.0.0"},
+  {description, "Erlang bindings for git natural language date parser"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+ ]}.
