@@ -12,16 +12,16 @@ static void parse_approxidate(char **argv)
 }
 
 void usage() {
-	printf("usage:\n"
-	       "gate_test [date]...\n");
+	printf("usage: test_gate date...\n");
 }
 
 int main(int argc, char **argv)
 {
+	argv++;
 	if (!*argv)
 		usage();
         else
-          parse_approxidate(argv+1);
+          parse_approxidate(argv);
 
 	return 0;
 }
